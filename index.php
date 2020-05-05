@@ -1,7 +1,8 @@
 <?php
 // require_once'/opt/rh/php55/root/usr/share/pear/classes/queryDb.php';
 // require_once 'opt/app-root/src/classes/queryDb.php';
-print_r($(SUBDOMAIN));exit;
+echo $(SUBDOMAIN);
+exit;
 require_once 'classes/queryDb.php';
 $products = getProducts(null,null,'4');
 ?>
