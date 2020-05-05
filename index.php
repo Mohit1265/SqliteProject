@@ -1,5 +1,5 @@
 <?php
-require_once '/opt/app-root/src/classes/queryDb.php';
+require_once 'sqlite-project-git-sqlite-project.apps.us-west-1.starter.openshift-online.com/classes/queryDB.php';
 $products = getProducts(null,null,'4');
 ?>
 <!DOCTYPE html>
