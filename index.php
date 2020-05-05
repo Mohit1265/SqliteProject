@@ -1,5 +1,5 @@
 <?php
-require_once'http://sqlite-project-git-sqlite-project.apps.us-west-1.starter.openshift-online.com/classes/queryDb.php';
+require_once'.:/opt/openshift/src:/opt/rh/php55/root/usr/share/pear/classes/queryDb.php';
 // require_once 'opt/app-root/src/classes/queryDb.php';
 // require_once ($_ENV['OPENSHIFT_REPO_DIR'] . 'classes/queryDb.php');
 $products = getProducts(null,null,'4');
